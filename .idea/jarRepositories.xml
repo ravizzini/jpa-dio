@@ -7,6 +7,11 @@
       <option name="url" value="https://nexus.sharedservices.local/repository/maven-public" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="cassi-maven" />
+      <option name="name" value="CASSI Maven Repo" />
+      <option name="url" value="http://nexus.cassi.com.br:8081/repository/cassimaven/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />

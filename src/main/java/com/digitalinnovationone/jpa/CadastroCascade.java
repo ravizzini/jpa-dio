@@ -28,7 +28,7 @@ public class CadastroCascade {
 		Carro carro = new Carro();
 		carro.setCliente(cliente);
 		carro.setModelo("Fusca");
-		carro.setMarca("Ford");
+		carro.setMarca("VW");
 		carro.setMultas(Collections.singletonList(multa));
 		multa.setCarro(carro);
 		cliente.setCarros(Collections.singletonList(carro));

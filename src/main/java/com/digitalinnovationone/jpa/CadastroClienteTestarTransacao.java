@@ -6,7 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class CadastroCliente {
+public class CadastroClienteTestarTransacao {
 
     public static void main(String... string) {
 
@@ -16,7 +16,7 @@ public class CadastroCliente {
         entityManager.getTransaction().begin();
 
         Cliente cliente = new Cliente();
-        cliente.setNome("Joao Paulo");
+        cliente.setNome("Victor");
         entityManager.persist(cliente);
         entityManager.getTransaction().commit();
         entityManager.close();

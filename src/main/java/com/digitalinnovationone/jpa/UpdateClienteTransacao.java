@@ -9,7 +9,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import java.time.LocalDateTime;
 
-public class CadastroClienteTestarTransacao {
+public class UpdateClienteTransacao {
 
     public static void main(String... string) {
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Clientes-PU");
